@@ -6,6 +6,7 @@ It is simple enough to just load the .env files into process.env .
 Features:
 - Zero-dependency,
 - Simple and clean,
+- less than 50 lines,
 - Easy enough to add your own customizations in to it.
 
 ## Install
@@ -25,8 +26,12 @@ environment specific variables on new lines in the form of `KEY=VALUE`.
 For example:
 
 ```bash
+# Single Value
 NODE_ENV=development
 PORT=8000
+
+# Multi Value Environment Variables seperated by comma
+CLIENT_ID=APP,WEB,API
 ```
 
 That's it.
