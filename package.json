@@ -1,6 +1,6 @@
 {
   "name": "dotenv-minimal",
-  "version": "0.5.0",
+  "version": "0.5.1",
   "description": "loads environment variables from .env file",
   "main": "index.js",
   "scripts": {
