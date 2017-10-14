@@ -17,7 +17,7 @@ npm install dotenv-minimal --save
 ## Usage
 Require it in your entry file:
 ```javascript
-require('dotenv-minimal`)
+require('dotenv-minimal')
 ```
 
 Create a `.env` file in the root directory of your project. Add
