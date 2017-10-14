@@ -37,3 +37,8 @@ CLIENT_ID=APP,WEB,API
 That's it.
 
 `process.env` now has the keys and values you defined in your `.env` file.
+
+### Development Setup steps:
+* clone the repo
+* npm install --save-dev eslint-config-airbnb-base eslint eslint-plugin-import
+* npm install

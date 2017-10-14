@@ -4,8 +4,12 @@
   "description": "loads environment variables from .env file",
   "main": "index.js",
   "scripts": {
-    "lint": "./node_modules/.bin/eslint --quiet ."
+    "lint": "./node_modules/.bin/eslint --quiet .",
+    "lint-auto-fix": "./node_modules/.bin/eslint --fix ."
   },
+  "pre-commit": [
+    "lint"
+  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/nivesh2/dotenv-minimal.git"
@@ -29,6 +33,7 @@
   "devDependencies": {
     "eslint": "^4.8.0",
     "eslint-config-airbnb-base": "^12.0.2",
-    "eslint-plugin-import": "^2.7.0"
+    "eslint-plugin-import": "^2.7.0",
+    "pre-commit": "^1.2.2"
   }
 }
