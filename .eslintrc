@@ -1,0 +1,26 @@
+{
+  "extends": "airbnb-base",
+  "rules": {
+    "eol-last": "off",
+    "func-names": ["error", "never"],
+    "no-param-reassign": ["error", { "props": false }],
+    "semi": ["error", "never"],
+    "global-require": "off",
+    "arrow-body-style": "warn",
+    "prefer-destructuring": "off",
+    "object-curly-newline": "warn",
+    "no-shadow": "warn",
+    "no-restricted-syntax": "off",
+    "no-underscore-dangle": "warn"
+  },
+  "env": {
+    "node": true,
+    "mocha": true
+  },
+  "globals": {
+    "rootRequire": true,
+    "logger": true,
+    "requestSlack": true,
+    "newError": true
+  }
+}

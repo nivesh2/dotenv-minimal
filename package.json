@@ -1,0 +1,34 @@
+{
+  "name": "dotenv-minimal",
+  "version": "0.5.0",
+  "description": "loads environment variables from .env file",
+  "main": "index.js",
+  "scripts": {
+    "lint": "./node_modules/.bin/eslint --quiet ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nivesh2/dotenv-minimal.git"
+  },
+  "keywords": [
+    "dotenv",
+    "env",
+    ".env",
+    "environment",
+    "variables",
+    "config",
+    "settings",
+    "minimal"
+  ],
+  "author": "Nivesh Singh (nivesh2@gmail.com) <http://niveshsingh.com/>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nivesh2/dotenv-minimal/issues"
+  },
+  "homepage": "https://github.com/nivesh2/dotenv-minimal#readme",
+  "devDependencies": {
+    "eslint": "^4.8.0",
+    "eslint-config-airbnb-base": "^12.0.2",
+    "eslint-plugin-import": "^2.7.0"
+  }
+}
