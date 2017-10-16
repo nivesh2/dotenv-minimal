@@ -32,6 +32,9 @@ PORT=8000
 
 # Multi Value Environment Variables seperated by comma
 CLIENT_ID=APP,WEB,API
+
+# Supports multiple = in the same line
+BASIC_AUTH=Authorisation QWswcwevRQQQEWFEWEFE==
 ```
 
 That's it.
