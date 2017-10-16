@@ -14,10 +14,14 @@ function readFromEnvFile() {
     }).filter((v) => {
       return v.indexOf('#') === -1
     }).forEach((v) => {
-      const temp = v.split('=').map((str) => {
-        return str.trim()
-      })
-      env[temp[0]] = temp[1]
+      const splitPosition = v.indexOf('=')
+      if (splitPosition === -1) {
+        return
+      }
+      // only first '=' will be splitted
+      const key = v.slice(0, splitPosition).trim()
+      const value = v.slice(splitPosition + 1).trim()
+      env[key] = value
     })
     return env
   } catch (err) {
