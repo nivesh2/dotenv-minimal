@@ -6,7 +6,8 @@
  */
 function readFromEnvFile() {
   try {
-    const data = require('fs').readFileSync('.env', 'utf8')
+    // .env file should be in root directory
+    const data = require('fs').readFileSync(require('path').join(__dirname, '../../.env'), 'utf8')
 
     const env = {}
     data.split('\n').filter((v) => {

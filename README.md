@@ -21,7 +21,7 @@ Require it in your entry file:
 require('dotenv-minimal')
 ```
 
-Create a `.env` file in the root directory of your project. Add
+Create a `.env` file in the *root directory* of your project. Add
 environment specific variables on new lines in the form of `KEY=VALUE`.
 For example:
 
